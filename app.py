@@ -286,7 +286,7 @@ def render_model_info():
                 else:
                     st.write(f.name)
     else:
-        st.caption("No explicit loss graph file found in the app directory.")
+        pass
 
 
 # ------------------------------
